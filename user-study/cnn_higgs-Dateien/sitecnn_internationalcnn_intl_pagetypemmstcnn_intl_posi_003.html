@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<script>
+        function cnnad_getTld (hostname)
+        {
+               var data = hostname.split(".");
+               if (data.length >= 2)
+               {
+                       return (data[data.length-2] + "." + data[data.length-1]);
+               }
+               return(null);
+        }
+ 
+        var cnnDocDomain = cnnad_getTld(location.hostname);
+        if(cnnDocDomain) {document.domain = cnnDocDomain;}
+
+	function cnnGetId(query) {
+		var keyValPairs = query.split('&');
+		if(!keyValPairs) {
+			keyValPairs = new Array();
+			keyValPairs[keyValPairs.length]=query;
+		}
+		for(var counter=0; counter < keyValPairs.length;counter++) {
+			var keyVal = keyValPairs[counter].split('=');
+			if(keyVal[0]=='domId') {
+				//alert("returning id: " + keyVal[1]);
+				return keyVal[1];
+			}
+		}
+	}
+			
+	function cnnSendData2() {
+		var docId = cnnGetId(decodeURIComponent(location.pathname.substring(9)));
+		var height = 250;
+		var width = 300;
+		var targetWindow = top;
+		try
+		{
+			if(parent.cnnad_showAd)
+			{
+				targetWindow = parent;
+			}
+		} catch(err) {} 
+		targetWindow.cnnad_showAd(docId);
+		if ((height > 0)&&(width > 0))
+		{
+			targetWindow.cnnad_setAdSize(docId,height,width);
+		}
+	}
+</script> 
+</head>
+
+<body style="background-color:transparent" onload="cnnSendData2()">
+<!--FlightID: 513683-->
+<script language="JavaScript">
+
+var swf_click = "http://ads.cnn.com/event.ng/Type=click&FlightID=513683&AdID=695193&TargetID=120139&Segments=767,2168,2248,2484,5237,5516,9823,14108,15337,20226,29397,29705,30338,30375,30525,31205,31554,31758,32187,32625,33448,36482,36483,36504,37513,38916,40223,46694,48402,54488,54897,55168,55454,59826,59955,61118,61565,61997,62649,65631,66311,66615,69646,69647,70137,70486,70487,70697,70837,70968,71078,71556,71573&Values=1590&Redirect=http://edition.cnn.com/business/";
+var dcswf_click = escape(swf_click);
+
+var ShockMode = 0;
+var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+if (plugin && parseInt(plugin.description.substring(plugin.description.indexOf(".")-2)) >= 9) 
+{
+ShockMode = 1;
+}
+else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 
+&& (navigator.userAgent.indexOf("Windows 95")>=0 || navigator.userAgent.indexOf("Windows 98")>=0 || navigator.userAgent.indexOf("Windows NT")>=0)) {
+document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+document.write('on error resume next \n');
+
+document.write('ShockMode = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.9")))\n');
+
+document.write('<\/SCRIPT\> \n');
+}
+if ( ShockMode ) {
+document.write('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+document.write(' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0"');
+document.write(' ID=flashad WIDTH=300 HEIGHT=250>');
+document.write(' <PARAM NAME=movie VALUE="http://i.cdn.turner.com/cnn/cnnintl_adspaces/2.0/creatives/2010/6/9/21017300x250-03.swf"> '); 
+document.write(' <PARAM NAME=FlashVars VALUE="clickTag='+dcswf_click+'"> '); 
+document.write(' <PARAM NAME=quality VALUE=autohigh> ');
+document.write(' <PARAM NAME=allowScriptAccess VALUE=always> '); 
+
+document.write(' <param name=wmode value=opaque> ');
+
+document.write(' <EMBED SRC="http://i.cdn.turner.com/cnn/cnnintl_adspaces/2.0/creatives/2010/6/9/21017300x250-03.swf" FlashVars="clickTag='+dcswf_click+'" QUALITY=autohigh allowScriptAccess=always'); 
+document.write(' NAME=flashad swLiveConnect=TRUE WIDTH=300 HEIGHT=250 wmode=opaque');
+
+
+document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+document.write('</EMBED>');
+document.write('</OBJECT>');
+} else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
+document.write('<A HREF="http://ads.cnn.com/event.ng/Type=click&FlightID=513683&AdID=695193&TargetID=120139&Segments=767,2168,2248,2484,5237,5516,9823,14108,15337,20226,29397,29705,30338,30375,30525,31205,31554,31758,32187,32625,33448,36482,36483,36504,37513,38916,40223,46694,48402,54488,54897,55168,55454,59826,59955,61118,61565,61997,62649,65631,66311,66615,69646,69647,70137,70486,70487,70697,70837,70968,71078,71556,71573&Targets=100270,120376,152184,104239,160710,163266,95059,89913,162532,93372,96781,96362,96338,96339,79999,153917,168214,165385,136773,153442,153446,120138,120139,133623,145818,149180,167601,168874,170345&Values=62,85,100,150,683,685,686,687,749,1293,1575,1590,2763,4434,48213,52900,56058,56872,57005,57006,58570,58702,59827,59988,59996,61089,61263,122346,122973,153947,158387,158914,159052,159543&RawValues=NGUSERID%252C5139b6880b55720a3d146b32df004c3c%252CTID%252C7571327464673574%252CTIL%252C0185086372631&Redirect=http://edition.cnn.com/business/" target="_blank"><IMG SRC="http://i.cdn.turner.com/cnn/cnnintl_adspaces/2.0/creatives/2010/6/9/44217frame_03.jpg" WIDTH=300 HEIGHT=250 BORDER=0></A>');
+}
+
+</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="flashad" height="250" width="300"> <param name="movie" value="http://i.cdn.turner.com/cnn/cnnintl_adspaces/2.0/creatives/2010/6/9/21017300x250-03.swf">  <param name="FlashVars" value="clickTag=http%3A//ads.cnn.com/event.ng/Type%3Dclick%26FlightID%3D513683%26AdID%3D695193%26TargetID%3D120139%26Segments%3D767%2C2168%2C2248%2C2484%2C5237%2C5516%2C9823%2C14108%2C15337%2C20226%2C29397%2C29705%2C30338%2C30375%2C30525%2C31205%2C31554%2C31758%2C32187%2C32625%2C33448%2C36482%2C36483%2C36504%2C37513%2C38916%2C40223%2C46694%2C48402%2C54488%2C54897%2C55168%2C55454%2C59826%2C59955%2C61118%2C61565%2C61997%2C62649%2C65631%2C66311%2C66615%2C69646%2C69647%2C70137%2C70486%2C70487%2C70697%2C70837%2C70968%2C71078%2C71556%2C71573%26Values%3D1590%26Redirect%3Dhttp%3A//edition.cnn.com/business/">  <param name="quality" value="autohigh">  <param name="allowScriptAccess" value="always">  <param name="wmode" value="opaque">  <embed src="sitecnn_internationalcnn_intl_pagetypemmstcnn_intl_position300x1/21017300x250-03.swf" flashvars="clickTag=http%3A//ads.cnn.com/event.ng/Type%3Dclick%26FlightID%3D513683%26AdID%3D695193%26TargetID%3D120139%26Segments%3D767%2C2168%2C2248%2C2484%2C5237%2C5516%2C9823%2C14108%2C15337%2C20226%2C29397%2C29705%2C30338%2C30375%2C30525%2C31205%2C31554%2C31758%2C32187%2C32625%2C33448%2C36482%2C36483%2C36504%2C37513%2C38916%2C40223%2C46694%2C48402%2C54488%2C54897%2C55168%2C55454%2C59826%2C59955%2C61118%2C61565%2C61997%2C62649%2C65631%2C66311%2C66615%2C69646%2C69647%2C70137%2C70486%2C70487%2C70697%2C70837%2C70968%2C71078%2C71556%2C71573%26Values%3D1590%26Redirect%3Dhttp%3A//edition.cnn.com/business/" quality="autohigh" allowscriptaccess="always" name="flashad" swliveconnect="TRUE" wmode="opaque" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" height="250" width="300"></object>
+<noembed>
+&lt;A 
+HREF="http://ads.cnn.com/event.ng/Type=click&amp;FlightID=513683&amp;AdID=695193&amp;TargetID=120139&amp;Segments=767,2168,2248,2484,5237,5516,9823,14108,15337,20226,29397,29705,30338,30375,30525,31205,31554,31758,32187,32625,33448,36482,36483,36504,37513,38916,40223,46694,48402,54488,54897,55168,55454,59826,59955,61118,61565,61997,62649,65631,66311,66615,69646,69647,70137,70486,70487,70697,70837,70968,71078,71556,71573&amp;Targets=100270,120376,152184,104239,160710,163266,95059,89913,162532,93372,96781,96362,96338,96339,79999,153917,168214,165385,136773,153442,153446,120138,120139,133623,145818,149180,167601,168874,170345&amp;Values=62,85,100,150,683,685,686,687,749,1293,1575,1590,2763,4434,48213,52900,56058,56872,57005,57006,58570,58702,59827,59988,59996,61089,61263,122346,122973,153947,158387,158914,159052,159543&amp;RawValues=NGUSERID%252C5139b6880b55720a3d146b32df004c3c%252CTID%252C7571327464673574%252CTIL%252C0185086372631&amp;Redirect=http://edition.cnn.com/business/"
+ target="_blank"&gt;&lt;IMG 
+SRC="http://i.cdn.turner.com/cnn/cnnintl_adspaces/2.0/creatives/2010/6/9/44217frame_03.jpg"
+ WIDTH=300 HEIGHT=250 BORDER=0&gt;&lt;/A&gt;
+</noembed>
+<div style="position:absolute;visibility:hidden;"><img src="sitecnn_internationalcnn_intl_pagetypemmstcnn_intl_position300x1/TypecountClientType2ASegAModAOpt0AdID695193FlightID513683Tar.gif" border="0" height="1" width="1"></div>
+
+</body></html>

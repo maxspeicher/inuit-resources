@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<script>
+        function cnnad_getTld (hostname)
+        {
+               var data = hostname.split(".");
+               if (data.length >= 2)
+               {
+                       return (data[data.length-2] + "." + data[data.length-1]);
+               }
+               return(null);
+        }
+ 
+        var cnnDocDomain = cnnad_getTld(location.hostname);
+        if(cnnDocDomain) {document.domain = cnnDocDomain;}
+
+	function cnnGetId(query) {
+		var keyValPairs = query.split('&');
+		if(!keyValPairs) {
+			keyValPairs = new Array();
+			keyValPairs[keyValPairs.length]=query;
+		}
+		for(var counter=0; counter < keyValPairs.length;counter++) {
+			var keyVal = keyValPairs[counter].split('=');
+			if(keyVal[0]=='domId') {
+				//alert("returning id: " + keyVal[1]);
+				return keyVal[1];
+			}
+		}
+	}
+			
+	function cnnSendData2() {
+		var docId = cnnGetId(decodeURIComponent(location.pathname.substring(9)));
+		var height = 260;
+		var width = 316;
+		var targetWindow = top;
+		try
+		{
+			if(parent.cnnad_showAd)
+			{
+				targetWindow = parent;
+			}
+		} catch(err) {} 
+		targetWindow.cnnad_showAd(docId);
+		if ((height > 0)&&(width > 0))
+		{
+			targetWindow.cnnad_setAdSize(docId,height,width);
+		}
+	}
+</script> 
+<script src="sitecnn_internationalcnn_intl_pagetypemmstcnn_intl_position607x9/osd.js" type="text/javascript"></script></head>
+
+<body style="background-color:transparent" onload="cnnSendData2()">
+<!--FlightID: 516973-->
+<!-- BEGIN CREATIVE -->
+<style type="text/css" media="screen">
+        @import url(http://z.cdn.turner.com/cnn/.element/css/3.0/common.css);
+</style>
+<script type="text/javascript">
+        /* define all relevant Google ad variables */
+        google_ad_client = 'ca-cnn-int-mosaicarticle_js';
+        google_ad_channel = 'tech_rr';
+        google_ad_output = 'js';
+        google_max_num_ads = '3';
+        google_page_url = top.location;
+        google_ad_type = 'text';
+        google_language = 'en';
+        google_encoding = 'utf8';
+        google_safe = 'high';
+        google_adtest = 'off';
+
+        /* the google call back function */
+        function google_ad_request_done (google_ads)
+        {
+                if (google_ads.length === 0)
+                {
+                        return;
+                }
+
+                // main container div for all the ads
+                var container = document.createElement('div');
+                container.className = 'cnnWireAdLtgBox';
+                document.body.appendChild(container);
+
+                // the inner box 
+                var box = document.createElement('div');
+                box.className = 'cnnBoxContent';
+                container.appendChild(box);
+
+                // the adbox
+                var ads = document.createElement('div');
+                ads.className = 'cnnAdLinksRR'; 
+                if (google_ads.length === 1)
+                {
+                        ads.id = 'cnnAdvLinks1Ad';
+                }
+                else if (google_ads.length === 2)
+                {
+                        ads.id = 'cnnAdvLinks2Ads';
+                }
+                else
+                {
+                        ads.id = 'cnnAdvLinks3Ads';
+                }
+                box.appendChild(ads);
+
+                // the ad box heading
+                var h = document.createElement('div');
+                h.className = 'cnnHtAdvertHead';
+                h.innerHTML = 'Sponsored links';
+                ads.appendChild(h);
+
+                // the actual ads go here
+                var adlist = document.createElement('div');
+                ads.appendChild(adlist);
+
+                // now add in all the ads.
+                var ad;
+                for (var i = 0; i < google_ads.length; i++)
+                {
+                        ad = google_ad_create_elem(google_ads[i]);
+                        adlist.appendChild(ad);
+                }
+        }
+
+        /* helper function to create DOM elements for Google ads */
+        function google_ad_create_elem (google_ad)
+        {
+                // Google encodes their URL, so we can't use it as-is.
+                google_ad.url = google_ad.url.replace(/&amp;/g,"&");
+
+                // create the main div to hold the entire ad
+                var d = document.createElement('div');
+                d.className = 'cnnHtAdvertLnks';
+
+                // the heading (line1) of the ad
+                var h = document.createElement('span');
+                h.className = 'cnnHtAdvertTitle';
+                h.innerHTML = google_ad.line1;
+                h.onmouseover = function () { 
+                                        window.status = google_ad.visible_url;
+                                        this.style.cursor = document.all ? 'hand' : 'pointer';
+                };
+                h.onclick = function () { window.open(google_ad.url); };
+                h.onmouseout = function () { window.status = ''; this.style.cursor = 'auto'; };
+                d.appendChild(h);
+
+                // line break after the heading
+                var br1 = document.createElement('br');
+                d.appendChild(br1);
+
+                // insert the rest of the lines in the ad (line2 + line3)
+                var t = document.createElement('span');
+                t.innerHTML = google_ad.line2 + ' ' + google_ad.line3;
+                t.onmouseover = function () { 
+                                        window.status = google_ad.visible_url;
+                                        this.style.cursor = document.all ? 'hand' : 'pointer';
+                };
+                t.onclick = function () { window.open(google_ad.url); };
+                t.onmouseout = function () { window.status = ''; this.style.cursor = 'auto'; };
+                d.appendChild(t);
+
+                // add a line break after the main body of ad
+                var br2 = document.createElement('br');
+                d.appendChild(br2);
+
+                // link up the URL
+                var a = document.createElement('a');
+                var i = document.createTextNode(google_ad.visible_url);
+                a.target = "_blank";
+                a.href = google_ad.url;
+                a.onmouseover = function () { window.status = google_ad.visible_url; return true; };
+                a.appendChild(i);
+                d.appendChild(a);
+
+                return d;
+        }
+</script>
+<script type="text/javascript" src="sitecnn_internationalcnn_intl_pagetypemmstcnn_intl_position607x9/show_ads.js"></script><script src="sitecnn_internationalcnn_intl_pagetypemmstcnn_intl_position607x9/show_ads_impl.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><script language="JavaScript1.1" src="sitecnn_internationalcnn_intl_pagetypemmstcnn_intl_position336x2/ads"></script><div class="cnnWireAdLtgBox"><div class="cnnBoxContent"><div id="cnnAdvLinks3Ads" class="cnnAdLinksRR"><div class="cnnHtAdvertHead">Sponsored links</div><div><div class="cnnHtAdvertLnks"><span class="cnnHtAdvertTitle">Master Without Bachelor</span><br><span>Online MA in 12 months from leading British University - free catalogue</span><br><a href="http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CDWNMp7Y5UdSMIoGvsQaR_IDgD4DRg9sCsIKRqjr4xPGKUxABIP7L6AooA1DhqfWV_P____8BYJWCtILAB6AByJTb5QPIAQGpAlQvDtphwrE-qAMBqgSWAU_QP_xRi3KFWcO3ybpA_M_vaeuryEgkAX2sXua5ei9iXjDoratZPNB2mb9kEndetpl7C79Z7dG7MbTj2sopsHDFdRgB3bZ22z58x9saG4SkZOtMqarz4UqmIN7CKVNoQk5RuPrmCKpwqbfsIy5zB4COmt0MUrxMknGH6o7-LBBt-gChghvgQqbp2lsppEeZTClhR92LiogGAYAHoOukGg&amp;num=1&amp;cid=5GhCB5brv9g1aS1e0U43-bkO&amp;sig=AOD64_0NlMSSvlAt8OVQfZ4JH8jjQCTqCg&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=https://college.ch/robot/%3Fjura%3DCNNc" target="_blank">college.ch</a></div><div class="cnnHtAdvertLnks"><span class="cnnHtAdvertTitle"> Keep Your Brain Young</span><br><span>Sharpen Your Memory With Brain Games Made By Neuroscientists</span><br><a href="http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CK76Cp7Y5UdSMIoGvsQaR_IDgD8upm-cE49Ot4V7796WeRBACIP7L6AooA1C4veWvAWCVgrSCwAegAf2j09wDyAEBqAMBqgSfAU_Qb7Zoi3GFWcO3ybpA_M_vaeuryEgkAX2sXua5ei9iXjDoratZPNB2mb9kEndetpl7C79Z7dG7MbTj2sopsHDFdRgB3bZ22z58x9saG4SkZOtMqarz4UqmIN7CKVNoQk5RuPrmCKpwqbfsIy5zB4COmt1MUrxkk8lMAEaY4fOG-biibO1QYVPq2qoqovKabMlnx8NgkKSgYv1t54-I2ogGAYAH69usIw&amp;num=2&amp;cid=5GhCB5brv9g1aS1e0U43-bkO&amp;sig=AOD64_2d0HtojpDmlQqQMZim5xzE7C_LFA&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=http://www.lumosity.com/landing%3Frefer%3D695%26a%3D%7B%7DKeepYourBrainYoung_SharpenYourMemoryWith_Text%26Network%3DContent%26kw%3D%26ad%3D25404724531%26SiteTarget%3Dedition.cnn.com%26ll_ad_id%3D594" target="_blank">www.lumosity.com</a></div><div class="cnnHtAdvertLnks"><span class="cnnHtAdvertTitle">Geheimtipp für Englisch</span><br><span>In 30 Tagen fit in Englisch mit EF Englishtown - Jetzt für nur 1 &#8364;</span><br><a href="http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CC1j5p7Y5UdSMIoGvsQaR_IDgD4GGxcMCuar24T6fy-rDJRADIP7L6AooA1C2kacoYJWCtILAB6ABv9KP7wPIAQGoAwGqBJwBT9A_716LcIVZw7fJukD8z-9p66vISCQBfaxe5rl6L2JeMOitq1k80HaZv2QSd162mXsLv1nt0bsxtOPayimwcMV1GAHdtnbbPnzH2xobhKRk60ypqvPhSqYg3sIpU2hCTlG4-uYIqnCpt-wjLnMHgI6a3QxSuWyTbFa3rqUsWW0SBxKHG-BiouncWymEB5lMPGTHdmOQBKaryowDiAYBgAeprfAQ&amp;num=3&amp;cid=5GhCB5brv9g1aS1e0U43-bkO&amp;sig=AOD64_1LqNPg-JiUJ2twJDS4f40IbBxXqA&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=http://googlede.englishtown.com/online/lp/OnlineStudent_ppcdeos21.aspx%3Fctr%3Dde%26lng%3Dge%26ps%3Dy%26etag%3DGGDEC_WEB_TPC_OS21%26mkwid%3DcWCskuUzq%26pcrid%3D16775186441%26kword%3D%26match%3D%26plid%3Dedition.cnn.com" target="_blank">Englishtown.com/1-Euro-Spezial</a></div></div></div></div></div>
+<!-- END CREATIVE -->
+<img src="sitecnn_internationalcnn_intl_pagetypemmstcnn_intl_position336x2/TypecountClientType2ASegAModAOpt0AdID698856FlightID516973Tar.gif" border="0" height="1" width="1">
+
+</body></html>

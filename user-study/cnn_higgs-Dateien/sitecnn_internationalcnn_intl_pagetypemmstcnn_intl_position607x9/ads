@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=CeHbUp7Y5UYfrGIWwsQbj34DwDIr1jM0CyJab3gbAjbcBEAEg_svoCigDUKWGg4EGYJWCtILAB8gBAakCzaWDuBz2tT6oAwGqBJkBT9Dqe7a0PnGBgPpCNqsnLrt1igQKIhoquLGYlJB8zkXHQrqUxbervtvqJoMkVISgu-hgtQuMCQ23Uk18FGVfERX-ioscrhbP6o4L6izl37xJbpM6E010J416GctCRnEP1PUJTho6Sj3uIThuaUd-f-Ronst0L5pmVo6Ujh_aA7qUodDjSFZx6hiDDcz9LxgWy-RCc9aR3k5UgAf4n_gB&amp;num=1&amp;sig=AOD64_0l3_t9pxSdREbTuzMq9i74t13NMw&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=http://www.fernuni-hagen.de/"; 
+google_ad.visible_url = "www.FernUni-Hagen.de"; 
+google_ad.line1 = "Bachelor Studieng\x26#228;nge"; 
+google_ad.line2 = "Informieren Sie sich jetzt \x26#252;ber das"; 
+google_ad.line3 = "Studienangebot der FernUniversit\x26#228;t!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CSjf8p7Y5UYfrGIWwsQbj34DwDO27yeAErdvkjGGN69mtRRACIP7L6AooA1CQgYKb-_____8BYJWCtILAB6ABq6eR2gPIAQGoAwGqBJ8BT9DKR7e0PXGBgPpCNqsnLrt1igQKIhoquLGYlJB8zkXHQrqUxbervtvqJoMkVISgu-hgtQuMCQ23Uk18FGVfERX-ioscrhbP6o4L6izl37xJbpM6E010J416GctCRnEP1PUJTho6Sj3uIThuaUd-f-RonoN0msOCV66V_6GrFuGU6NALT-V06hijCcz7Lxg2i-RCZtNNZtlX-Y9r2Zj7iAYBgAe92O4l&amp;num=2&amp;cid=5Gg6nv6-4tpjsc7ky4uK2N1n&amp;sig=AOD64_2KUMrFjyHApCnvVD21bB3dtuAznw&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=http://www.miniinthebox.com/de/led-gluehlampe_c3115/Alle-3%3Fcurrency%3DEUR%26litb_from%3Dpaid_adwords_content"; 
+google_ad.visible_url = "MiniInTheBox.com/LED_Glühlampen"; 
+google_ad.line1 = "LED Leuchte Gl\x26#252;hlampen 4\x26#8364;"; 
+google_ad.line2 = "LED Gl\x26#252;hbirnen \x26amp; Lampen Bis zu -60%"; 
+google_ad.line3 = "Hochwertig, G\x26#252;nstig, Gratis Versand"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CgAV8p7Y5UYfrGIWwsQbj34DwDIywgvwEzPzjhVLAjbcBEAMg_svoCigDUN7t_pb______wFglYK0gsAHoAHs38zXA8gBAagDAaoElgFP0LpRoLQ8cYGA-kI2qycuu3WKBAoiGiq4sZiUkHzORcdCupTFt6u-2-omgyRUhKC76GC1C4wJDbdSTXwUZV8RFf6KixyuFs_qjgvqLOXfvElukzoTTXQnjXoZy0JGcQ_U9QlOGjpKPe4hOG5pR35_5Gieg3Sa64PvZX8xrzH1CpdQ0-W5VVcfG6P4z_2aGxZr4oZ6fWqIBgGAB_yfsyg&amp;num=3&amp;cid=5Gg6nv6-4tpjsc7ky4uK2N1n&amp;sig=AOD64_1n39pYDJCHaS26ByIu7ZDQs_AvDQ&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=http://everystudent.com/features/isthere.html"; 
+google_ad.visible_url = "everystudent.com"; 
+google_ad.line1 = "6 Reasons God Exists"; 
+google_ad.line2 = "No Arm-Twisting. Straightforward."; 
+google_ad.line3 = "Compelling Evidences. You Decide."; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://edition.cnn.com/2013/02/16/tech/innovation/science-exploration/%253Firef%253Dallsearch%26gl%3DDE%26hl%3Den%26client%3Dca-cnn-int-mosaicarticle_js%26hideleadgen%3D1%26ai0%3DCeHbUp7Y5UYfrGIWwsQbj34DwDIr1jM0CyJab3gbAjbcBEAEg_svoCigDUKWGg4EGYJWCtILAB8gBAakCzaWDuBz2tT6oAwGqBJkBT9Dqe7a0PnGBgPpCNqsnLrt1igQKIhoquLGYlJB8zkXHQrqUxbervtvqJoMkVISgu-hgtQuMCQ23Uk18FGVfERX-ioscrhbP6o4L6izl37xJbpM6E010J416GctCRnEP1PUJTho6Sj3uIThuaUd-f-Ronst0L5pmVo6Ujh_aA7qUodDjSFZx6hiDDcz9LxgWy-RCc9aR3k5UgAf4n_gB%26ai1%3DCSjf8p7Y5UYfrGIWwsQbj34DwDO27yeAErdvkjGGN69mtRRACIP7L6AooA1CQgYKb-_____8BYJWCtILAB6ABq6eR2gPIAQGoAwGqBJ8BT9DKR7e0PXGBgPpCNqsnLrt1igQKIhoquLGYlJB8zkXHQrqUxbervtvqJoMkVISgu-hgtQuMCQ23Uk18FGVfERX-ioscrhbP6o4L6izl37xJbpM6E010J416GctCRnEP1PUJTho6Sj3uIThuaUd-f-RonoN0msOCV66V_6GrFuGU6NALT-V06hijCcz7Lxg2i-RCZtNNZtlX-Y9r2Zj7iAYBgAe92O4l%26ai2%3DCgAV8p7Y5UYfrGIWwsQbj34DwDIywgvwEzPzjhVLAjbcBEAMg_svoCigDUN7t_pb______wFglYK0gsAHoAHs38zXA8gBAagDAaoElgFP0LpRoLQ8cYGA-kI2qycuu3WKBAoiGiq4sZiUkHzORcdCupTFt6u-2-omgyRUhKC76GC1C4wJDbdSTXwUZV8RFf6KixyuFs_qjgvqLOXfvElukzoTTXQnjXoZy0JGcQ_U9QlOGjpKPe4hOG5pR35_5Gieg3Sa64PvZX8xrzH1CpdQ0-W5VVcfG6P4z_2aGxZr4oZ6fWqIBgGAB_yfsyg\x26usg\x3dAFQjCNHf7JH_JT_WCiAOsvm8FFXbq3AvUA";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

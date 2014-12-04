@@ -1,0 +1,2 @@
+
+Bootstrapper.bindDOMLoaded(function(){try{Bootstrapper.setCurrentRuleId(15152);var _vrq=window._vrq=_vrq||[];_vrq.push(['id',173]);_vrq.push(['automate',false]);_vrq.push(['track',function(){}]);Bootstrapper.insertScript('http://a.visualrevenue.com/vrs.js');;}catch(e){Bootstrapper.reportException(e);}});;

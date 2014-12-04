@@ -1,0 +1,33 @@
+function OAS_RICH(position) {
+if (position == 'BottomRight') {
+document.write ('<A HREF="http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/833408288/BottomRight/default/empty.gif/624c556f684646414e704541435a5739?x" target="_top"><IMG SRC="http://imagec14.247realmedia.com/RealMedia/ads/Creatives/default/empty.gif/0"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Right1') {
+document.write ('<script type="text/javascript" src="http://statoil.solution.weborama.fr/fcgi-bin/adserv.fcgi?tag=803440&f=9&ef=1&clicktag=http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/L23/1229600322/Right1/sciam.com/p_2013-01_Statoil_Tech_300_EU/p_2013-01_Statoil10_Tech_300_EU.html/624c556f684646414e704541435a5739?&rnd=1229600322"></script><noscript><a href="http://statoil.solution.weborama.fr/fcgi-bin/performance.fcgi?ID=459771&A=1&L=803440&C=36353&f=9&P=52331&T=E&URL" target="_blank"><img src="http://statoil.solution.weborama.fr/fcgi-bin/adserv.fcgi?tag=803440&f=9&ef=1&bk=1&clicktag=http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/L23/1229600322/Right1/sciam.com/p_2013-01_Statoil_Tech_300_EU/p_2013-01_Statoil10_Tech_300_EU.html/624c556f684646414e704541435a5739?&rnd=1229600322" width="300" height="250" border="0" alt=""></a></noscript>\n');
+}
+if (position == 'Right2') {
+document.write ('\n');
+document.write ('		<a href="http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/L23/1716159606/Right2/sciam.com/i_2010-09_IDR-Email/i_2010-09_IDR-Email_300x250_Right2.html/624c556f684646414e704541435a5739" target="_blank">\n');
+document.write ('    <img src="http://imagec14.247realmedia.com/RealMedia/ads/Creatives/sciam.com/i_2010-09_IDR-Email/IDR_336x280.gif/1285109634" style="border:0px black solid;" width="300" height="250" alt="" />\n');
+document.write ('</a>\n');
+document.write ('\n');
+document.write ('\n');
+}
+if (position == 'Top') {
+document.write ('<A HREF="http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/L23/339434565/Top/sciam.com/i_2013-03_InnovationPavillion_728_ROS/innocentive-728x90.png/624c556f684646414e704541435a5739?x" target="_blank"><IMG SRC="http://imagec14.247realmedia.com/RealMedia/ads/Creatives/sciam.com/i_2013-03_InnovationPavillion_728_ROS/innocentive-728x90.png/1360940386"  ALT=""  BORDER="0"></A>');
+}
+if (position == 'x40') {
+document.write ('<script type="text/javascript" src="http://statoil.solution.weborama.fr/fcgi-bin/adserv.fcgi?tag=803434&f=2978&ef=1&clicktag=http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/L23/1572487446/x40/sciam.com/p_2013-01_Statoil_Tech_120_EU/p_2013-01_Statoil20_Tech_120_EU.html/624c556f684646414e704541435a5739?&rnd=1572487446"></script><noscript><a href="http://statoil.solution.weborama.fr/fcgi-bin/performance.fcgi?ID=459771&A=1&L=803434&C=36353&f=2978&P=52331&T=E&URL" target="_blank"><img src="http://statoil.solution.weborama.fr/fcgi-bin/adserv.fcgi?tag=803434&f=2978&ef=1&bk=1&clicktag=http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/L23/1572487446/x40/sciam.com/p_2013-01_Statoil_Tech_120_EU/p_2013-01_Statoil20_Tech_120_EU.html/624c556f684646414e704541435a5739?&rnd=1572487446" width="120" height="88" border="0" alt=""></a></noscript>\n');
+}
+if (position == 'x41') {
+document.write ('		<a href="http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/L23/1076931561/x41/sciam.com/i_2010-09_twitter/i_2010-09_twitter_120x90_091712.html/624c556f684646414e704541435a5739" target="_blank">\n');
+document.write ('    <img src="http://imagec14.247realmedia.com/RealMedia/ads/Creatives/sciam.com/i_2010-09_twitter/i_2010-09_twitter_120x90_091712.gif/1347914960" style="border:0px black solid;" width="120" height="90" alt="" />\n');
+document.write ('</a>\n');
+}
+if (position == 'x42') {
+document.write ('<A HREF="http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/5305602/x42/default/empty.gif/624c556f684646414e704541435a5739?x" target="_top"><IMG SRC="http://imagec14.247realmedia.com/RealMedia/ads/Creatives/default/empty.gif/0"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'x81') {
+document.write ('<A HREF="http://oascentral.scientificamerican.com/RealMedia/ads/click_lx.ads/sciam.com/basic-science/967406973/x81/default/empty.gif/624c556f684646414e704541435a5739?x" target="_top"><IMG SRC="http://imagec14.247realmedia.com/RealMedia/ads/Creatives/default/empty.gif/0"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+}

@@ -1,0 +1,65 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CnC_z2DZAUYCkNsO_sQaf54HQDe3Og6QDtYD98lSFkI2asgEQASCAnYACKARQs5uWiwNglYK0gsAHoAG778z9A8gBAakC4g0iNjXgtT6oAwGqBLYBT9Cdo7cASa0nvb5psN9krxFQwbJKCZxrMoRSy9uKQ3PeiDKGmf9wI4s22k5DVzwpiTbVqwD4jw2sri9xCGVaR--AZ2JhPnIt66EXJ0qcKZ9oMM5y6HzD_1w9QR3mgjYiAGfNXdktxDo2YiY0Ako9TmYy-LQ9GEsDfZpxTKQzVsL2QorIH4TfQaa7zR_kzkEri2WQwmL_epRllMaKMZo1BWD2Tzd3R49ed_JlxrVrGw52Mf9w5R6IBgGAB62QswI&amp;num=1&amp;cid=5GjLYMSZgznC-l9SmUZldZE2&amp;sig=AOD64_2JM1KLSZRWS30Lm9XmVfIkoROG7g&amp;client=ca-pub-9188973542110640&amp;adurl=http://altfarm.mediaplex.com/ad/ck/10618-131769-2056-36"; 
+google_ad.visible_url = "www.blau.de/Allnet-Flat"; 
+google_ad.line1 = "Allnet-Flat f\x26#252;r 19,90\x26#8364;"; 
+google_ad.line2 = "Internetflat \x26amp; Flat in alle Netze."; 
+google_ad.line3 = "blau.de Allnet-Flat f\x26#252;r nur 19,90\x26#8364;!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=CQnLB2DZAUYCkNsO_sQaf54HQDeXdlp8D5daWqkPEhIWeCxACIICdgAIoBFC30KPv-P____8BYJWCtILAB8gBAagDAaoEtgFP0O2F2ABKrSe9vmmw32SvEVDBskoJnGsyhFLL24pDc96IMoaZ_3AjizbaTkNXPCmJNtWrAPiPDayuL3EIZVpH74BnYmE-ci3roRcnSpwpn2gwznLofMP_XD1BHeaCNiIAZ81d2S3EOjZiJjQCSj1OZjL4tD0YSwN9mnFMpDNWwvZCisgfhN9BprvNHuTOWXGZUZDCYv96lGWUxooxmjUFYPZPN3dHj1538mXGtWsbDnYx7UuDBYAHg92KFw&amp;num=2&amp;sig=AOD64_0VerZKyps8jh0FAuG_700NKob36A&amp;client=ca-pub-9188973542110640&amp;adurl=http://de.blackberry.com/smartphones/blackberry-z10/buy.html"; 
+google_ad.visible_url = "BlackBerry.com/BlackBerry-10"; 
+google_ad.line1 = "Das Neue BlackBerry\x26#174; Z10"; 
+google_ad.line2 = "Bewegend einfach. Entdecken Sie"; 
+google_ad.line3 = "das neue BlackBerry Z10."; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "site"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CfLzc2DZAUYCkNsO_sQaf54HQDbXxtc4BtZ-NqRW3uIDKLRADIICdgAIoBFCH9fSP-v____8BYJWCtILAB6ABi6PD_gPIAQGpApYMN5H2Drk-qAMBqgSyAU_QzZiPAEutJ72-abDfZK8RUMGySgmcazKEUsvbikNz3ogyhpn_cCOLNtpOQ1c8KYk21asA-I8NrK4vcQhlWkfvgGdiYT5yLeuhFydKnCmfaDDOcuh8w_9cPUEd5oI2IgBnzV3ZLcQ6NmImNAJKPU5mMvi0PRhLA32acUykM1bC9kKKyB-E30Gm-80b7M6VFFvDeyndFZN_jzsvfJyZwAYmA0xzgkSPq3TyEMW1Cx2BKUyIBgGAB93cvAE&amp;num=3&amp;cid=5GjLYMSZgznC-l9SmUZldZE2&amp;sig=AOD64_0zDCF8JOJfPN_Igr_G4lEiiIQmgg&amp;client=ca-pub-9188973542110640&amp;adurl=http://www.andor.com/scientific_cameras/neo_scmos_camera/"; 
+google_ad.visible_url = "www.andor.com/scmos"; 
+google_ad.line1 = "New sCMOS Camera"; 
+google_ad.line2 = "The first true scientific CMOS"; 
+google_ad.line3 = "camera available now from Andor."; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_ad = {}; 
+google_ad.n = 4; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CHtn02DZAUYCkNsO_sQaf54HQDfzf1KUD9MXtgkUKEAQggJ2AAigEUKTBsfMHYJWCtILAB6AB9LOp2wPIAQGpAuINIjY14LU-qAMBqgS5AU_Q3cqPAEytJ72-abDfZK8RUMGySgmcazKEUsvbikNz3ogyhpn_cCOLNtpOQ1c8KYk21asA-I8NrK4vcQhlWkfvgGdiYT5yLeuhFydKnCmfaDDOcuh8w_9cPUEd5oI2IgBnzV3ZLcQ6NmImNAJKPU5mMvi0PRhLA32acUykM1bC9kKKyB-E30Gm-80b7M6cNFqjnx3yFJErj30tYJ5zw6hjA0xxgkTLq3TykMW1HhgOFjdaVwfZVIeriAYBgAf0y9Yk&amp;num=4&amp;cid=5GjLYMSZgznC-l9SmUZldZE2&amp;sig=AOD64_2PBwDJPAEuSHQNxtaY7PWXc143Ng&amp;client=ca-pub-9188973542110640&amp;adurl=http://www.pcfritz.de/windows-7-professional"; 
+google_ad.visible_url = "pcfritz.de/Windows7_Professional"; 
+google_ad.line1 = "Windows 7 Pro 29,90\x26#8364;"; 
+google_ad.line2 = "Windows 7 Professional inkl. SP1"; 
+google_ad.line3 = "Express 24h - Jetzt online kaufen!"; 
+google_ad.regionname = ""; 
+google_ads[3] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.scientificamerican.com/article.cfm%253Fid%253Dhiggs-constraints-fermilab-tevatron%26gl%3DDE%26hl%3Den%26client%3Dca-pub-9188973542110640%26ai0%3DCnC_z2DZAUYCkNsO_sQaf54HQDe3Og6QDtYD98lSFkI2asgEQASCAnYACKARQs5uWiwNglYK0gsAHoAG778z9A8gBAakC4g0iNjXgtT6oAwGqBLYBT9Cdo7cASa0nvb5psN9krxFQwbJKCZxrMoRSy9uKQ3PeiDKGmf9wI4s22k5DVzwpiTbVqwD4jw2sri9xCGVaR--AZ2JhPnIt66EXJ0qcKZ9oMM5y6HzD_1w9QR3mgjYiAGfNXdktxDo2YiY0Ako9TmYy-LQ9GEsDfZpxTKQzVsL2QorIH4TfQaa7zR_kzkEri2WQwmL_epRllMaKMZo1BWD2Tzd3R49ed_JlxrVrGw52Mf9w5R6IBgGAB62QswI%26ai1%3DCQnLB2DZAUYCkNsO_sQaf54HQDeXdlp8D5daWqkPEhIWeCxACIICdgAIoBFC30KPv-P____8BYJWCtILAB8gBAagDAaoEtgFP0O2F2ABKrSe9vmmw32SvEVDBskoJnGsyhFLL24pDc96IMoaZ_3AjizbaTkNXPCmJNtWrAPiPDayuL3EIZVpH74BnYmE-ci3roRcnSpwpn2gwznLofMP_XD1BHeaCNiIAZ81d2S3EOjZiJjQCSj1OZjL4tD0YSwN9mnFMpDNWwvZCisgfhN9BprvNHuTOWXGZUZDCYv96lGWUxooxmjUFYPZPN3dHj1538mXGtWsbDnYx7UuDBYAHg92KFw%26ai2%3DCfLzc2DZAUYCkNsO_sQaf54HQDbXxtc4BtZ-NqRW3uIDKLRADIICdgAIoBFCH9fSP-v____8BYJWCtILAB6ABi6PD_gPIAQGpApYMN5H2Drk-qAMBqgSyAU_QzZiPAEutJ72-abDfZK8RUMGySgmcazKEUsvbikNz3ogyhpn_cCOLNtpOQ1c8KYk21asA-I8NrK4vcQhlWkfvgGdiYT5yLeuhFydKnCmfaDDOcuh8w_9cPUEd5oI2IgBnzV3ZLcQ6NmImNAJKPU5mMvi0PRhLA32acUykM1bC9kKKyB-E30Gm-80b7M6VFFvDeyndFZN_jzsvfJyZwAYmA0xzgkSPq3TyEMW1Cx2BKUyIBgGAB93cvAE%26ai3%3DCHtn02DZAUYCkNsO_sQaf54HQDfzf1KUD9MXtgkUKEAQggJ2AAigEUKTBsfMHYJWCtILAB6AB9LOp2wPIAQGpAuINIjY14LU-qAMBqgS5AU_Q3cqPAEytJ72-abDfZK8RUMGySgmcazKEUsvbikNz3ogyhpn_cCOLNtpOQ1c8KYk21asA-I8NrK4vcQhlWkfvgGdiYT5yLeuhFydKnCmfaDDOcuh8w_9cPUEd5oI2IgBnzV3ZLcQ6NmImNAJKPU5mMvi0PRhLA32acUykM1bC9kKKyB-E30Gm-80b7M6cNFqjnx3yFJErj30tYJ5zw6hjA0xxgkTLq3TykMW1HhgOFjdaVwfZVIeriAYBgAf0y9Yk\x26usg\x3dAFQjCNFIcRhd36hZClLf3uRHaRE8h-zpTw";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

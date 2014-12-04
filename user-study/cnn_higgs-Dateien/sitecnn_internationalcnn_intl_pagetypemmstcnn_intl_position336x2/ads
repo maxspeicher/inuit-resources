@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "site"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CDWNMp7Y5UdSMIoGvsQaR_IDgD4DRg9sCsIKRqjr4xPGKUxABIP7L6AooA1DhqfWV_P____8BYJWCtILAB6AByJTb5QPIAQGpAlQvDtphwrE-qAMBqgSWAU_QP_xRi3KFWcO3ybpA_M_vaeuryEgkAX2sXua5ei9iXjDoratZPNB2mb9kEndetpl7C79Z7dG7MbTj2sopsHDFdRgB3bZ22z58x9saG4SkZOtMqarz4UqmIN7CKVNoQk5RuPrmCKpwqbfsIy5zB4COmt0MUrxMknGH6o7-LBBt-gChghvgQqbp2lsppEeZTClhR92LiogGAYAHoOukGg&amp;num=1&amp;cid=5GhCB5brv9g1aS1e0U43-bkO&amp;sig=AOD64_0NlMSSvlAt8OVQfZ4JH8jjQCTqCg&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=https://college.ch/robot/%3Fjura%3DCNNc"; 
+google_ad.visible_url = "college.ch"; 
+google_ad.line1 = "Master Without Bachelor"; 
+google_ad.line2 = "Online MA in 12 months from leading"; 
+google_ad.line3 = "British University - free catalogue"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CK76Cp7Y5UdSMIoGvsQaR_IDgD8upm-cE49Ot4V7796WeRBACIP7L6AooA1C4veWvAWCVgrSCwAegAf2j09wDyAEBqAMBqgSfAU_Qb7Zoi3GFWcO3ybpA_M_vaeuryEgkAX2sXua5ei9iXjDoratZPNB2mb9kEndetpl7C79Z7dG7MbTj2sopsHDFdRgB3bZ22z58x9saG4SkZOtMqarz4UqmIN7CKVNoQk5RuPrmCKpwqbfsIy5zB4COmt1MUrxkk8lMAEaY4fOG-biibO1QYVPq2qoqovKabMlnx8NgkKSgYv1t54-I2ogGAYAH69usIw&amp;num=2&amp;cid=5GhCB5brv9g1aS1e0U43-bkO&amp;sig=AOD64_2d0HtojpDmlQqQMZim5xzE7C_LFA&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=http://www.lumosity.com/landing%3Frefer%3D695%26a%3D%7B%7DKeepYourBrainYoung_SharpenYourMemoryWith_Text%26Network%3DContent%26kw%3D%26ad%3D25404724531%26SiteTarget%3Dedition.cnn.com%26ll_ad_id%3D594"; 
+google_ad.visible_url = "www.lumosity.com"; 
+google_ad.line1 = " Keep Your Brain Young"; 
+google_ad.line2 = "Sharpen Your Memory With"; 
+google_ad.line3 = "Brain Games Made By Neuroscientists"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CC1j5p7Y5UdSMIoGvsQaR_IDgD4GGxcMCuar24T6fy-rDJRADIP7L6AooA1C2kacoYJWCtILAB6ABv9KP7wPIAQGoAwGqBJwBT9A_716LcIVZw7fJukD8z-9p66vISCQBfaxe5rl6L2JeMOitq1k80HaZv2QSd162mXsLv1nt0bsxtOPayimwcMV1GAHdtnbbPnzH2xobhKRk60ypqvPhSqYg3sIpU2hCTlG4-uYIqnCpt-wjLnMHgI6a3QxSuWyTbFa3rqUsWW0SBxKHG-BiouncWymEB5lMPGTHdmOQBKaryowDiAYBgAeprfAQ&amp;num=3&amp;cid=5GhCB5brv9g1aS1e0U43-bkO&amp;sig=AOD64_1LqNPg-JiUJ2twJDS4f40IbBxXqA&amp;client=ca-cnn-int-mosaicarticle_js&amp;adurl=http://googlede.englishtown.com/online/lp/OnlineStudent_ppcdeos21.aspx%3Fctr%3Dde%26lng%3Dge%26ps%3Dy%26etag%3DGGDEC_WEB_TPC_OS21%26mkwid%3DcWCskuUzq%26pcrid%3D16775186441%26kword%3D%26match%3D%26plid%3Dedition.cnn.com"; 
+google_ad.visible_url = "Englishtown.com/1-Euro-Spezial"; 
+google_ad.line1 = "Geheimtipp f\x26#252;r Englisch"; 
+google_ad.line2 = "In 30 Tagen fit in Englisch mit"; 
+google_ad.line3 = "EF Englishtown - Jetzt f\x26#252;r nur 1 \x26#8364;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://edition.cnn.com/2013/02/16/tech/innovation/science-exploration/%253Firef%253Dallsearch%26gl%3DDE%26hl%3Den%26client%3Dca-cnn-int-mosaicarticle_js%26hideleadgen%3D1%26ai0%3DCDWNMp7Y5UdSMIoGvsQaR_IDgD4DRg9sCsIKRqjr4xPGKUxABIP7L6AooA1DhqfWV_P____8BYJWCtILAB6AByJTb5QPIAQGpAlQvDtphwrE-qAMBqgSWAU_QP_xRi3KFWcO3ybpA_M_vaeuryEgkAX2sXua5ei9iXjDoratZPNB2mb9kEndetpl7C79Z7dG7MbTj2sopsHDFdRgB3bZ22z58x9saG4SkZOtMqarz4UqmIN7CKVNoQk5RuPrmCKpwqbfsIy5zB4COmt0MUrxMknGH6o7-LBBt-gChghvgQqbp2lsppEeZTClhR92LiogGAYAHoOukGg%26ai1%3DCK76Cp7Y5UdSMIoGvsQaR_IDgD8upm-cE49Ot4V7796WeRBACIP7L6AooA1C4veWvAWCVgrSCwAegAf2j09wDyAEBqAMBqgSfAU_Qb7Zoi3GFWcO3ybpA_M_vaeuryEgkAX2sXua5ei9iXjDoratZPNB2mb9kEndetpl7C79Z7dG7MbTj2sopsHDFdRgB3bZ22z58x9saG4SkZOtMqarz4UqmIN7CKVNoQk5RuPrmCKpwqbfsIy5zB4COmt1MUrxkk8lMAEaY4fOG-biibO1QYVPq2qoqovKabMlnx8NgkKSgYv1t54-I2ogGAYAH69usIw%26ai2%3DCC1j5p7Y5UdSMIoGvsQaR_IDgD4GGxcMCuar24T6fy-rDJRADIP7L6AooA1C2kacoYJWCtILAB6ABv9KP7wPIAQGoAwGqBJwBT9A_716LcIVZw7fJukD8z-9p66vISCQBfaxe5rl6L2JeMOitq1k80HaZv2QSd162mXsLv1nt0bsxtOPayimwcMV1GAHdtnbbPnzH2xobhKRk60ypqvPhSqYg3sIpU2hCTlG4-uYIqnCpt-wjLnMHgI6a3QxSuWyTbFa3rqUsWW0SBxKHG-BiouncWymEB5lMPGTHdmOQBKaryowDiAYBgAeprfAQ\x26usg\x3dAFQjCNErFK0UGbR6ITYTggqlDurXVQ0WvA";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

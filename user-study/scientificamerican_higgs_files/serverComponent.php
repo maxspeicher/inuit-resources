@@ -1,0 +1,1 @@
+var psj0 = 'http://nexus.ensighten.com/npg/code/0UM2ZcWR8mTBSSIk4p7yCw((.js?ruleId=3606';Bootstrapper.insertScript(psj0);var psj1 = 'http://nexus.ensighten.com/npg/code/QEnRcI8YQjpCYk0UYfefsw((.js?ruleId=15152';Bootstrapper.loadScriptCallback(psj1, Bootstrapper.callOnPageSpecificCompletion); 
