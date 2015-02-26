@@ -23,3 +23,9 @@ This repository contains:
   - https://searchinteractionoptimization.eu01.aws.af.cm/inuit/cnn_higgs.html
   - https://searchinteractionoptimization.eu01.aws.af.cm/inuit/scientificamerican_higgs.html
   - https://searchinteractionoptimization.eu01.aws.af.cm/inuit/yahoo_higgs.html
+
+## License
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+This work&mdash;excluding the news articles as downloaded from the websites of CERN, CNN, Yahoo News and Scientific American, respectively&mdash;is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
