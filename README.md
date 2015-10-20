@@ -7,8 +7,8 @@ There are numerous instruments for measuring usability on the web. Surprisingly,
 
 ## Publication(s)
 
-- Maximilian Speicher, Andreas Both, and Martin Gaedke (2013). "Towards Metric-based Usability Evaluation of Online Web Interfaces". In: *Mensch & Computer Workshopband*. http://dl.mensch-und-computer.de/handle/123456789/3399
-- Maximilian Speicher, Andreas Both, and Martin Gaedke (2015). "INUIT: The Interface Usability Instrument". In: *Proc. DUXU*. http://link.springer.com/chapter/10.1007%2F978-3-319-20886-2_25
+- Maximilian Speicher, Andreas Both, and Martin Gaedke (2013). "Towards Metric-based Usability Evaluation of Online Web Interfaces". In: *Mensch & Computer Workshopband*. [Electronic Edition](http://dl.mensch-und-computer.de/handle/123456789/3399) | [Full Text](https://www.researchgate.net/publication/271269915)
+- Maximilian Speicher, Andreas Both, and Martin Gaedke (2015). "INUIT: The Interface Usability Instrument". In: *Proc. DUXU*. [Electronic Edition](http://link.springer.com/chapter/10.1007%2F978-3-319-20886-2_25) | [Full Text](https://www.researchgate.net/publication/282441105)
 
 ## Demo
 
